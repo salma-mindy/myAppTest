@@ -1,0 +1,87 @@
+ <div class="landing-page">
+      <div class="page-content">
+        <div class="grid-logo">
+            <div class="logo-gauche"></div>
+            <div class="logo-milieu">
+                <div class="service-box">
+                  <div class="service-icon">
+                    <img src="../../assets/logo.png" />
+                  </div>
+                </div>
+            </div>
+            <div class="logo-droite"></div>
+        </div>
+        
+        <div class="grid-bnner">
+            <div class="text-grid-gau"></div>
+            <div class="text-grid-mil">
+                <div class="form-text">
+                    <h1 class="" style="font-size: 55px;">Inscription</h1>
+                    <p class="" style="font-size: 20px;">
+                        Cher client, Veuillez s'il vous plait renseigner les champs d'inscription.<br>
+                        NB: Les champs obligatoires sont indiqués avec un astérisque(*).
+                    </p>
+                </div>
+            </div>
+            <div class="text-grid-droi"></div>
+        </div>
+        <div class="grid-container">
+            <div class="inscription">
+                <div class="ins-btn">
+                    <p>
+                        <b><a routerLink="/client">Inscription</a></b>
+                    </p>
+                </div>
+            </div>
+            <div class="principale">
+                <div class="">
+                    <section>
+                        <input type="radio" id="entreprise" name="entreprise" value="entreprise">
+                        <label for="entreprise">Entréprise</label> &nbsp;
+                        <input type="radio" id="particulier" name="particulier" value="particulier">
+                        <label for="particulier">Particulier</label>
+                    </section>
+                    <div id="entreprise">
+                        <form action="">
+                            <section class="formul">
+                                <input type="text" id="i-input" placeholder="Nom de l'entréprise *" />
+                                <input type="email" id="i-input" placeholder="Email de l'entréprise *" />
+                                <input type="password" id="i-input" placeholder="Mot de passe *" />
+                                <input type="password" id="i-input" placeholder="Confirmation de mot de passe *" />
+                            </section>
+                            
+                            <div id="next">
+                                <button type="submit" class="btn-sbm">
+                                   &rarr;
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <!--<div id="particulier">
+                        <form action="">
+                            <section class="formul">
+                                <input type="text" id="i-input" placeholder="Nom complet *" />
+                                <input type="email" id="i-input" placeholder="Email *" />
+                                <input type="password" id="i-input" placeholder="Mot de passe *" />
+                                <input type="password" id="i-input" placeholder="Confirmation de mot de passe *" />
+                            </section>
+                            
+                            <div id="next">
+                                <button type="submit" class="btn-sbm">
+                                   &rarr;
+                                </button>
+                            </div>
+                        </form>
+                    </div>-->
+                </div>
+            </div>
+            <div class="connexion">
+                <div class="con-btn">
+                    <p>
+                        <b><a routerLink="/connexion">Connexion</a></b>
+                    </p>
+                </div>
+            </div>
+	    </div>
+      </div>
+    </div>
